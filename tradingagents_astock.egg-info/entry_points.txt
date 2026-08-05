@@ -1,0 +1,3 @@
+[console_scripts]
+tradingagents = cli.main:app
+tradingagents-web = web.launch:main
