@@ -1,0 +1,29 @@
+# 敏感与运行时文件(绝不提交)
+.env
+*.env
+**/.env
+DEEPSEEK_API_KEY*
+
+# 分析产物(个人数据)
+results/
+*.pdf
+*.png
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# 备份与临时
+*_backup_*/
+*.backup-*
+backup*/
+temp/
+
+# 系统
+Thumbs.db
+.DS_Store
